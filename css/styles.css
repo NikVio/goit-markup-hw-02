@@ -1,34 +1,36 @@
+:root {
+  --logo-color: #4d5ae5;
+  --first-logo-color: #2e2f42;
+  --second-logo-color: #f4f4fd;
+}
+
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
 
-.header-link {
-  font-family: "Raleway";
+.link {
   text-decoration: none;
-  font-weight: 800;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-link-logo {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .header-logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--first-logo-color);
 }
 
-.header-list {
-  list-style: none;
-}
-.header-item {
-  font-family: "Roboto";
+.header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -36,18 +38,13 @@ body {
   color: #2e2f42;
 }
 
-/* .header-item {
-
-} */
-
-.header-address-list {
-  list-style: none;
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
 }
 
 .header-address-mail {
-  font-family: "Roboto";
   font-style: normal;
-  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -60,9 +57,7 @@ body {
 }
 
 .header-address-tel {
-  font-family: "Roboto";
   font-style: normal;
-  text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -80,8 +75,6 @@ body {
   background: #2e2f42;
 }
 .hero-title {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.08;
   letter-spacing: 0.02em;
@@ -98,8 +91,7 @@ body {
 }
 
 .hero-btn-text {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -109,17 +101,7 @@ body {
 
 /* Section */
 
-.hidden {
-  display: none;
-}
-
-.features-list {
-  list-style: none;
-}
-
 .features-title {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,25 +110,15 @@ body {
 }
 
 .features-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 /* Section 2 */
 
-.section-list {
-  list-style: none;
-}
-
 .section-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -159,14 +131,7 @@ body {
   background: #f4f4fd;
 }
 
-.teamcards-list {
-  list-style: none;
-}
-
 .teamcards-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -174,8 +139,6 @@ body {
 }
 
 .teamcards-subtitle {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -184,9 +147,6 @@ body {
 }
 
 .teamcards-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -200,9 +160,6 @@ body {
 }
 
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -210,22 +167,14 @@ body {
 }
 
 .footer-link {
-  font-family: "Raleway";
-  font-weight: 800;
-  text-decoration: none;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .footer-logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--second-logo-color);
 }
