@@ -29,8 +29,6 @@
 
   --title-color: #2e2f42;
 
-  --text-color: #434445;
-
   --cards-back-color: #f4f4fd;
 
   --cards-item-back-color: #ffffff;
@@ -45,7 +43,7 @@
 
   --port-btn-text-color: #4d5ae5;
 
-  --port-btn-text-hover-color: #ffffff;
+  --btn-text-hover-color: #ffffff;
 }
 
 body {
@@ -148,7 +146,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--body-text-color);
 }
 
 /* Section 2 */
@@ -193,7 +191,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--body-text-color);
 }
 
 /* Portfolio Main Btn */
@@ -226,7 +224,7 @@ body {
 
 .filters-btn-text:hover,
 .filters-btn-text:focus {
-  color: var(--port-btn-text-hover-color);
+  color: var(--btn-text-hover-color);
 }
 
 /* Portfolio Main Cards */
@@ -249,7 +247,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--body-text-color);
 }
 
 /* Footer */
