@@ -13,13 +13,9 @@
 
   --link-hover-color: #404bbf;
 
-  --mail-color: #434455;
+  --address-color: #434455;
 
-  --mail-hover-color: #404bbf;
-
-  --tel-color: #434455;
-
-  --tel-hover-color: #404bbf;
+  --address-hover-color: #404bbf;
 
   --hero-back-color: #2e2f42;
 
@@ -36,6 +32,8 @@
   --text-color: #434445;
 
   --cards-back-color: #f4f4fd;
+
+  --cards-item-back-color: #ffffff;
 
   --footer-back-color: #2e2f42;
 
@@ -98,12 +96,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--mail-color);
+  color: var(--address-color);
 }
 
 .header-address:hover,
 .header-address:focus {
-  color: var(--mail-hover-color);
+  color: var(--address-hover-color);
 }
 
 /* hero */
@@ -170,8 +168,8 @@ body {
   background: var(--cards-back-color);
 }
 
-.teamcards-list {
-  background: #ffffff;
+.teamcards-item {
+  background: var(--cards-item-back-color);
 }
 
 .teamcards-title {
