@@ -220,10 +220,6 @@ body {
 .filters-btn:hover,
 .filters-btn:focus {
   background: var(--btn-hover-color);
-}
-
-.filters-btn-text:hover,
-.filters-btn-text:focus {
   color: var(--btn-text-hover-color);
 }
 
