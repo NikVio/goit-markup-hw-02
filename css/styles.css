@@ -1,28 +1,52 @@
 :root {
   --logo-color: #4d5ae5;
+
   --first-logo-color: #2e2f42;
+
   --second-logo-color: #f4f4fd;
+
   --body-back-color: #ffffff;
+
   --body-text-color: #434455;
+
   --link-color: #2e2f42;
+
   --link-hover-color: #404bbf;
+
   --mail-color: #434455;
+
   --mail-hover-color: #404bbf;
+
   --tel-color: #434455;
+
   --tel-hover-color: #404bbf;
+
   --hero-back-color: #2e2f42;
+
   --hero-title-color: #ffffff;
+
   --btn-color: #4d5ae5;
+
   --btn-hover-color: #404bbf;
+
   --btn-text-color: #ffffff;
+
   --title-color: #2e2f42;
+
   --text-color: #434445;
+
   --cards-back-color: #f4f4fd;
+
   --footer-back-color: #2e2f42;
+
   --footer-text-color: #f4f4fd;
+
   --port-back-btn: #f4f4fd;
+
   --port-border-btn: #e7e9fc;
+
   --port-btn-text-color: #4d5ae5;
+
   --port-btn-text-hover-color: #ffffff;
 }
 
@@ -146,10 +170,16 @@ body {
   background: var(--cards-back-color);
 }
 
+.teamcards-list {
+  background: #ffffff;
+}
+
 .teamcards-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: var(--title-color);
 }
 
