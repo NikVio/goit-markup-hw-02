@@ -2,11 +2,32 @@
   --logo-color: #4d5ae5;
   --first-logo-color: #2e2f42;
   --second-logo-color: #f4f4fd;
+  --body-back-color: #ffffff;
+  --link-color: #2e2f42;
+  --link-hover-color: #404bbf;
+  --mail-color: #434455;
+  --mail-hover-color: #404bbf;
+  --tel-color: #434455;
+  --tel-hover-color: #404bbf;
+  --hero-back-color: #2e2f42;
+  --hero-title-color: #ffffff;
+  --btn-color: #4d5ae5;
+  --btn-hover-color: #404bbf;
+  --btn-text-color: #ffffff;
+  --title-color: #2e2f42;
+  --text-color: #434445;
+  --cards-back-color: #f4f4fd;
+  --footer-back-color: #2e2f42;
+  --footer-text-color: #f4f4fd;
+  --port-back-btn: #f4f4fd;
+  --port-border-btn: #e7e9fc;
+  --port-btn-text-color: #4d5ae5;
+  --port-btn-text-hover-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background: var(--body-back-color);
 }
 
 .link {
@@ -35,12 +56,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--link-color);
 }
 
 .header-link:hover,
 .header-link:focus {
-  color: #404bbf;
+  color: var(--link-hover-color);
 }
 
 .header-address-mail {
@@ -48,12 +69,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--mail-color);
 }
 
 .header-address-mail:hover,
 .header-address-mail:focus {
-  color: #404bbf;
+  color: var(--mail-hover-color);
 }
 
 .header-address-tel {
@@ -61,33 +82,35 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--tel-color);
 }
 
 .header-address-tel:hover,
 .header-address-tel:focus {
-  color: #404bbf;
+  color: var(--tel-hover-color);
 }
 
 /* hero */
 
 .hero {
-  background: #2e2f42;
+  background: var(--hero-back-color);
 }
+
 .hero-title {
   font-size: 56px;
   line-height: 1.08;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--hero-title-color);
 }
+
 .hero-btn {
-  background: #4d5ae5;
   cursor: pointer;
+  background: var(--btn-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #404bbf;
+  background: var(--btn-hover-color);
 }
 
 .hero-btn-text {
@@ -96,7 +119,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--btn-text-color);
 }
 
 /* Section */
@@ -106,14 +129,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 /* Section 2 */
@@ -122,20 +145,20 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 /* Section 3 */
 
 .teamcards {
-  background: #f4f4fd;
+  background: var(--cards-back-color);
 }
 
 .teamcards-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .teamcards-subtitle {
@@ -143,27 +166,86 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .teamcards-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
+}
+
+/* Portfolio Main Btn */
+
+.filters {
+}
+
+.filters-list {
+}
+
+.filters-item {
+}
+
+.filters-btn {
+  cursor: pointer;
+  background: var(--port-back-btn);
+  border: var(--port-border-btn);
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background: var(--btn-hover-color);
+}
+
+.filters-btn-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--port-btn-text-color);
+}
+
+.filters-btn-text:hover,
+.filters-btn-text:focus {
+  color: var(--port-btn-text-hover-color);
+}
+
+/* Portfolio Main Cards */
+
+.project-list {
+}
+
+.project-item {
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 /* Footer */
 
 .footer {
-  background: #2e2f42;
+  background: var(--footer-back-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-text-color);
 }
 
 .footer-link {
