@@ -3,6 +3,7 @@
   --first-logo-color: #2e2f42;
   --second-logo-color: #f4f4fd;
   --body-back-color: #ffffff;
+  --body-text-color: #434455;
   --link-color: #2e2f42;
   --link-hover-color: #404bbf;
   --mail-color: #434455;
@@ -28,6 +29,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: var(--body-back-color);
+  color: var(--body-text-color);
 }
 
 .link {
@@ -40,8 +42,9 @@ body {
 
 .header-link-logo {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
@@ -64,30 +67,19 @@ body {
   color: var(--link-hover-color);
 }
 
-.header-address-mail {
+.address {
   font-style: normal;
+}
+.header-address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--mail-color);
 }
 
-.header-address-mail:hover,
-.header-address-mail:focus {
+.header-address:hover,
+.header-address:focus {
   color: var(--mail-hover-color);
-}
-
-.header-address-tel {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--tel-color);
-}
-
-.header-address-tel:hover,
-.header-address-tel:focus {
-  color: var(--tel-hover-color);
 }
 
 /* hero */
@@ -98,12 +90,19 @@ body {
 
 .hero-title {
   font-size: 56px;
-  line-height: 1.08;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--hero-title-color);
 }
 
 .hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--btn-text-color);
+  font-family: inherit;
   cursor: pointer;
   background: var(--btn-color);
 }
@@ -111,15 +110,6 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background: var(--btn-hover-color);
-}
-
-.hero-btn-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--btn-text-color);
 }
 
 /* Section */
@@ -142,6 +132,8 @@ body {
 /* Section 2 */
 
 .section-title {
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -188,7 +180,13 @@ body {
 }
 
 .filters-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  color: var(--port-btn-text-color);
   background: var(--port-back-btn);
   border: var(--port-border-btn);
 }
@@ -196,15 +194,6 @@ body {
 .filters-btn:hover,
 .filters-btn:focus {
   background: var(--btn-hover-color);
-}
-
-.filters-btn-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--port-btn-text-color);
 }
 
 .filters-btn-text:hover,
@@ -250,8 +239,9 @@ body {
 
 .footer-link {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
